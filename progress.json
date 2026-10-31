@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:54:41.740Z",
+  "generated_at": "2026-10-31T16:16:14.954Z",
   "items": {
     "problem:214": {
       "kind": "problem",
@@ -63,6 +63,19 @@
       "path": "problems/0023-softmax-activation-function-implementation",
       "first_solved_at": "2026-10-26T13:54:41.011Z",
       "last_pushed_at": "2026-10-26T13:54:41.011Z",
+      "language": "python",
+      "lines": 7
+    },
+    "problem:14": {
+      "kind": "problem",
+      "id": "14",
+      "title": "Linear Regression Using Normal Equation",
+      "difficulty": "easy",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/14",
+      "path": "problems/0014-linear-regression-using-normal-equation",
+      "first_solved_at": "2026-10-31T16:16:14.088Z",
+      "last_pushed_at": "2026-10-31T16:16:14.088Z",
       "language": "python",
       "lines": 7
     }
