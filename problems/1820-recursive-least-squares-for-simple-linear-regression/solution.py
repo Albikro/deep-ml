@@ -22,7 +22,7 @@ def online_simple_regression(xs, ys):
         variance_x = S_xx / count
         S_xy += diffx_old * diffy_new
         covariance_of_data = S_xy / count
-        if covariance_of_data == 0:
+        if variance_x == 0:
             w1 = 0
         else:
             w1 = covariance_of_data / variance_x
