@@ -12,12 +12,13 @@ def irls_logreg(X, y, n_iter, lam=0.0):
         S = np.diag(s_n)
         z = (X @ weights) + (y - mu) / s_n
 
+        eps = 1e-15
         I = np.eye(feature_num)
         I[0,0] = 0.0 
         weights = np.linalg.solve(X.T @ S @ X + 2*lam* I,X.T @ S @ z)
         mu = 1/(1+np.exp(-1 * (X @ weights)))
 
-        loss_function = -1 * np.sum(y * np.log(mu) + (1 - y) * np.log(1 - mu))
+        loss_function = -1 * np.sum(y * np.log(mu + eps) + (1 - y) * np.log(1 - mu + eps))
         loss_function += lam * np.sum(weights[1:] ** 2)
   
         history.append(loss_function)
