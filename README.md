@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**10** solved · 10 problems · 0 labs · 0 math
+**11** solved · 11 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -12,6 +12,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 
 | | Difficulty | Solved | |
 | --- | --- | --- | --- |
+| [Binary Classification with Logistic Regression](https://www.deep-ml.com/problems/104) | easy | 2026-11-14 | [solution](problems/0104-binary-classification-with-logistic-regression) |
 | [Linear Regression Using Gradient Descent](https://www.deep-ml.com/problems/15) | easy | 2026-10-31 | [solution](problems/0015-linear-regression-using-gradient-descent) |
 | [Linear Regression Using Normal Equation](https://www.deep-ml.com/problems/14) | easy | 2026-10-31 | [solution](problems/0014-linear-regression-using-normal-equation) |
 | [Recursive Least Squares for Simple Linear Regression](https://www.deep-ml.com/problems/1820) | easy | 2026-11-11 | [solution](problems/1820-recursive-least-squares-for-simple-linear-regression) |
