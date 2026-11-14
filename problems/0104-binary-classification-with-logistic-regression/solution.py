@@ -14,12 +14,7 @@ def predict_logistic(X: np.ndarray, weights: np.ndarray, bias: float) -> np.ndar
     Returns:
         Binary predictions (0 or 1)
     """
-    raw_outputs = []
-    for i in range(len(X)):
-        raw_outputs.append(X[i] @ weights + bias)
 
+    raw_outputs = [X[i] @ weights + bias for i in range(len(X))]
     sigmoid_outputs = [1 / (1 + math.exp(-1 * raw_output)) for raw_output in raw_outputs]
     return np.array([1 if sigmoid_output>= 0.5 else 0 for sigmoid_output in sigmoid_outputs])
-    # Your code here
-    return sigmoid_output
-    pass
