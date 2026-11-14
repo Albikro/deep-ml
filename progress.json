@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T05:35:09.786Z",
+  "generated_at": "2026-11-14T07:15:16.057Z",
   "items": {
     "problem:214": {
       "kind": "problem",
@@ -143,6 +143,19 @@
       "last_pushed_at": "2026-11-14T05:35:09.935Z",
       "language": "python",
       "lines": 20
+    },
+    "problem:1807": {
+      "kind": "problem",
+      "id": "1807",
+      "title": "Logistic Regression by Iteratively Reweighted Least Squares",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/1807",
+      "path": "problems/1807-logistic-regression-by-iteratively-reweighted-least-squares",
+      "first_solved_at": "2026-11-14T07:15:15.435Z",
+      "last_pushed_at": "2026-11-14T07:15:15.435Z",
+      "language": "python",
+      "lines": 26
     }
   }
 }
