@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**12** solved · 12 problems · 0 labs · 0 math
+**13** solved · 13 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -24,6 +24,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Chain Rule for Composite Functions](https://www.deep-ml.com/problems/214) | medium | 2026-10-12 | [solution](problems/0214-chain-rule-for-composite-functions) |
 | [Linear Regression - Power Grid Optimization](https://www.deep-ml.com/problems/92) | medium | 2026-11-05 | [solution](problems/0092-linear-regression-power-grid-optimization) |
 | [Logistic Regression by Iteratively Reweighted Least Squares](https://www.deep-ml.com/problems/1807) | medium | 2026-11-14 | [solution](problems/1807-logistic-regression-by-iteratively-reweighted-least-squares) |
+| [Robust Logistic Regression With a Label-Noise Mixture Likelihood](https://www.deep-ml.com/problems/1811) | medium | 2026-11-17 | [solution](problems/1811-robust-logistic-regression-with-a-label-noise-mixture-likelihood) |
 
 ---
 

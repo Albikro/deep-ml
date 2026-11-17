@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T07:15:50.471Z",
+  "generated_at": "2026-11-17T14:18:10.145Z",
   "items": {
     "problem:214": {
       "kind": "problem",
@@ -156,6 +156,19 @@
       "last_pushed_at": "2026-11-14T07:15:49.919Z",
       "language": "python",
       "lines": 27
+    },
+    "problem:1811": {
+      "kind": "problem",
+      "id": "1811",
+      "title": "Robust Logistic Regression With a Label-Noise Mixture Likelihood",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/1811",
+      "path": "problems/1811-robust-logistic-regression-with-a-label-noise-mixture-likelihood",
+      "first_solved_at": "2026-11-17T14:18:09.285Z",
+      "last_pushed_at": "2026-11-17T14:18:09.285Z",
+      "language": "python",
+      "lines": 31
     }
   }
 }
